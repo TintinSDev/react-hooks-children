@@ -5,7 +5,7 @@ function Container({
   children,
   textPosition = "", // possible values: left, right, center
   direction = "horizontal", // possible values: vertical, horizontal
-  contentPosition = "center", // possible values: left, right, center
+  contentPosition = "right", // possible values: left, right, center
 }) {
   return (
     <div className={`container ${textPosition}`}>
